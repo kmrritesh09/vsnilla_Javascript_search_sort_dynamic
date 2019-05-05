@@ -1,0 +1,99 @@
+aside, .allItems, .mainDetails{
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside {
+	width: 15%;
+	font-family: calibri;
+	margin-right: 10px;
+	
+}
+
+.count {
+	float: right;
+	color: #00FFFF;
+	font-weight: bold;
+}
+
+.item:hover{
+	background-color: #87cefa;
+	cursor: pointer;
+}
+
+.active, .active1{
+	background-color: #E0FFFF;
+}
+
+.allItems {
+	width:35%;
+}
+
+.mainDetails{
+	width: 40%;
+	margin-left: 15px;
+}
+
+.product{
+	box-shadow: 2px 2px #888888;
+	margin-bottom: 5px;
+}
+
+.product:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+.text{
+	display: inline-block;
+	width: 80%;
+}
+
+img{
+	vertical-align: top;
+}
+
+.bluetext{
+	color: blue;
+}
+
+.redText{
+	color: red;
+}
+
+.boldText{
+	font-weight: bold;
+}
+
+.greyText{
+	color: grey;
+}
+
+.searchBar{
+	width: 100%;
+	box-shadow: 2px 2px 2px 2px #888888;
+	margin-bottom: 10px;
+}
+
+#search{
+	width: 50%;
+}
+
+.image{
+	display: inline-block;
+	width: 30%;
+	vertical-align: top;
+}
+
+.newDetails{
+	display: inline-block;;
+	margin-top: 20px;
+}
+
+.detailsTable{
+	display: inline-block;
+	width: 50%;
+	border: 1px solid;
+	margin-top: 80px;
+	margin-left: 30px;
+}
